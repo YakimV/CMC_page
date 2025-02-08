@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f2126;
+    color: #fff;
+}
+
+header {
+    background-color: #1b2d33;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1b2d33;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #0078ff;
+    border-bottom: 2px solid #0078ff;
+    padding-bottom: 5px;
+}
+
+.screenshot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.screenshot img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.donation-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.card a:hover {
+    color: #0078ff;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #1b2d33;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #e8e8e8;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #6e78ce;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ol, ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+strong {
+  color: #f3469c;
+}
+
+em {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+small {
+  font-size: 0.9em;
+  color: #9592a8;
+}
+
+.step {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 4px solid #3498db;
+  background: #1a1a1c;
+  border-radius: 4px;
+}
+
+code {
+    background-color: #401837;
+    border-radius: 4px;
+    color: #f3469c;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px 4px;
+}
+
+.description {
+  margin-bottom: 60px;
+  padding: 15px;
+  border-left: 4px solid #3498db;
+  background: #1a1a1c;
+  border-radius: 4px;
+  font-size: 17px;
+}
+.description h2 {
+    color: #f3469c;
+}
+
+.guide{
+    color: #f3469c;
+}
+
+img{
+    float: left;
+    height: 110px;
+}
+
+.warning {
+  background-color: #fff4e5;
+  border-left: 4px solid #ffa502;
+  padding: 15px;
+  font-size: 14px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+.warning h2 {
+  color: #e17055;
+}
+
+.warning p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.DonatA{
+  background-color: #e0cf35;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+
+.screenshots {
+    display: flex;
+    justify-content: center; /* Простір між зображеннями */
+    gap: 20px;
+  }
+  
+  .screenshots img {
+    width: 48%; /* Кожне зображення займає 48% ширини контейнера */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+
+
+  .link{
+    color: #e6a52b;
+}
+
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .description {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .screenshots {
+      flex-direction: column; /* На малих екранах зображення будуть вертикально */
+      align-items: center;
+    }
+  
+    .screenshots img {
+      width: 100%; /* Повна ширина зображення на мобільних */
+      max-width: 100%; 
+    }
+
+
+
+  }
+  
